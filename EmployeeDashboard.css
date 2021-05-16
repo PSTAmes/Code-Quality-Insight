@@ -1,0 +1,77 @@
+#maindiv{
+    background-color: #424242 ;
+}
+
+.container{
+    align-items: center;
+}
+
+#img-logo{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+#headerdiv{
+    padding-left: 1%;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#performanceindicator{
+    height : 300px;
+    padding-left: 1%;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+@media (min-width: 576px){
+    .col-sm-12 {
+        flex: auto;
+        width: 100%;
+        height :max-content;
+    }
+}
+
+
+#title{
+   font-size: 28px; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+   text-align: justify;
+   font-style: oblique;
+   background-color: #757575;
+   color: floralwhite;
+   border-bottom: #212121;
+}
+
+#personalimg{
+    align-items: right;
+}
+
+#graph{
+    align-items: center;
+    height: 210px;
+    width: 560px;
+}
+
+#cardtext{
+    text-align: left;
+    font-size: 18px;
+    font-style: oblique;
+    color: black;
+    
+}
+
+#cardbody{
+    background-color: #9E9E9E;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left: #bdbdbd;
+}
