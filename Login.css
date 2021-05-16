@@ -1,0 +1,139 @@
+body{
+    background-color: #2b447b;
+}
+
+#root{
+    height: auto;
+}
+
+#main-outer-div{
+    position: relative;
+    background-color: floralwhite;
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 7%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#title-div{
+    margin: auto;
+    text-align: center;
+}
+
+#img-logo{
+    width: 100%;
+    height: 100%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+    align-content:center;
+}
+
+#div-logo{
+    width: 50%;
+    margin: auto;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+.title {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+ 
+.alert {
+  font-size: 14px;
+  text-align: justify;
+  color: red;
+}
+
+.content{
+  box-sizing: border-box;
+  text-align: left;
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px;
+  background-color: #eef3ff;
+}
+  
+.content:focus {
+  outline: 0;
+}
+
+.content > input {
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 0px 0px 1px inset,
+              rgba(28, 28, 29, 1) 0px 0px 2px inset;
+}
+
+.content[type="submit"] {
+  background-color: #395faf;
+  border-width: 0px;
+  margin-top: 15px;
+  padding: 0px;
+} 
+
+#outer-login-form-div {
+  width: 100%;
+  margin: 0 auto;
+}
+  
+@media (max-width: 300px) {
+    #main-outer-div {
+      width: 50%;
+      min-width: 0px;
+    }
+}
+  
+.submitBtn {
+    height: 40px;
+}
+
+.error,
+.success {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: 24px;
+  font-size: 16px;
+  padding: 24px 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.error {
+  color: #ec454d;
+}
+
+.success {
+  color: #8bc34a;
+}
+
+.forgotPassword {
+  text-align: justify;
+  width: 100%;
+  color: #004bdc;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.forgotPassword > a {
+  cursor: pointer;
+  color: #8bc34a;
+}
+
+.forgotPassword > a:hover {
+  color: blue;
+}
